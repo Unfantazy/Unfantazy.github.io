@@ -1,0 +1,156 @@
+@media(max-width: 930px) {
+  .works__inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .works__items {
+    flex-basis: 34%;
+  }
+
+  .works__items-text {
+    max-width: 220px;
+    margin-bottom: 20px;
+  }
+
+  .my-works__text {
+    padding-right: 10px;
+  }
+}
+
+
+@media(max-width: 870px) {
+  .my-works__title {
+    padding-right: 10px;
+  }
+}
+
+@media(max-width: 810px) {
+  .footer__inner {
+    flex-wrap: wrap;
+  }
+
+  .footer__items {
+    padding-top: 15px;
+  }
+
+
+  .footer__items-about {
+    flex-basis: 100%;
+  }
+}
+
+
+@media(max-width: 800px) {
+  .my-works__inner {
+    display: block;
+    padding: 0 50px;
+  }
+
+  .my-works__items {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .thumbs {
+    display: none;
+  }
+}
+
+@media(max-width: 680px) {
+  .works__items {
+    flex-basis: 51%;
+  }
+}
+
+
+@media(max-width: 590px) {
+  .header__menu-btn {
+    display: block;
+  }
+
+  .header__menu ul {
+    display: none;
+    position: absolute;
+    top: 63px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 0;
+    z-index: 2;
+    background-color: #fff;
+    border-bottom: 5px solid #e8663c;
+
+  }
+
+  .header__menu li.header__menu-contact {
+    margin-bottom: 0;
+    border-bottom: 0;
+  }
+
+  .header__menu li {
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #b9b9b9;
+    padding: 5px 0;
+  }
+
+
+  .header__menu li+li {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 560px) {
+  .footer__items {
+    flex-basis: 100%;
+    padding-top: 0;
+  }
+
+  .slick-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 465px) {
+  .works__inner {
+    flex-wrap: wrap;
+  }
+
+  .works__items {
+    flex-basis: 0;
+    justify-content: center;
+
+  }
+
+  .works__items-text {
+    max-width: 220px;
+    margin-bottom: 20px;
+  }
+
+  .slider__item-text {
+    bottom: 32px;
+    left: 0;
+    padding: 22px 19px 0 10px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .my-works__inner {
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  .my-works__title {
+    margin-bottom: 10px;
+  }
+}
+
+@media(min-width: 595px) {
+  .header__menu ul {
+    display: block !important;
+  }
+}
